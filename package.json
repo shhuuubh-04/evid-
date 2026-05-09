@@ -1,0 +1,29 @@
+{
+  "name": "evid",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "icons:generate": "tauri icon src-tauri/icons/icon.png",
+    "test:persistence": "cargo test --manifest-path src-tauri/Cargo.toml persistence_smoke_roundtrip",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "lucide-preact": "^1.7.0",
+    "preact": "^10.25.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.3",
+    "@tauri-apps/cli": "^2",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.37",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3"
+  }
+}
