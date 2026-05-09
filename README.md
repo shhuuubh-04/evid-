@@ -45,4 +45,5 @@ Contributing
 - This is a small side project — feel free to open issues or pull requests. The codebase uses Preact + TypeScript for the UI (`src/`) and Rust for the Tauri backend (`src-tauri/src/`).
 
 License
-- MIT (or choose your preferred license)
+- GNU General Public License v3.0
+- See `LICENSE` for the full text.
